@@ -9,4 +9,32 @@ body{
 }
 table{
   border: 1px solid black;
+
+}
+table th {
+  background-color: #3366FF	;
+ }
+
+table tr:nth-child(odd) {
+  background-color: grey;
+}
+table tr:nth-child(even) {
+  background-color: pink;
+}
+
+
+#rojo{
+  color: red;
+
+}
+#azul{
+  color: blue;
+  text-decoration: underline;
+}
+
+#amarillo{
+  color: yellow;
+}
+#verde{
+  color: green;
 }
